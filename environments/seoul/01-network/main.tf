@@ -41,3 +41,7 @@ output "subnet_ids" {
 output "vpc_cidr01" {
   value = module.vpc_cidr // vpc cidr-1
 }
+output "vpc_cidr" {
+  value = module.vpc_cidr // vpc cidr-2
+
+}
