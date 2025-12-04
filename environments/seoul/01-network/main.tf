@@ -38,8 +38,13 @@ output "subnet_ids" {
   value = module.network.subnet_ids
 }
 
+<<<<<<< HEAD
 output "vpc_cidr01" {
   value = module.vpc_cidr // vpc cidr-1
+=======
+output "vpc_cidr03" {
+  value = moudle.vpc_cidr
+>>>>>>> 6fbeaa1 (feat: vpc_cider03 output 추가)
 }
 output "vpc_cidr" {
   value = module.vpc_cidr // vpc cidr-2
